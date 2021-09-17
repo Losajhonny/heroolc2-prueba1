@@ -1,12 +1,11 @@
-Entorno virtual
+crear entorno virtual
+python -m venv venv
+pip freeze
+pip freeze > requirements.txt
 
-python -m venv env
-pip install -r requirements.txt
-
-grahpviz tiene que estar instalado y el dot debe ser parte de las variables de entorno
-
+grahpviz tiene que estar instalado
+el dot debe ser parte de las variables de entorno <-- pruebas de forma local
 
 instalar heroku cli
 agregar un procfile
-
-web gunicorn nombreArchivo:app --preload
+    web gunicorn nombreArchivo:app --preload
