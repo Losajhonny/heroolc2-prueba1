@@ -10,4 +10,5 @@ instalar heroku cli
 agregar un procfile
     web gunicorn nombreArchivo:app --preload
 
-
+instalar
+heroku buildpacks:add https://github.com/weibeld/heroku-buildpack-graphviz
