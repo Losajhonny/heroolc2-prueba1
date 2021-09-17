@@ -17,7 +17,7 @@ def grafo():
     dot.edges(['AB', 'AL'])
     dot.edge('B', 'L', constraint='false')
     print(dot)
-    return "grafo"
+    return dot.render()
 
 if __name__ == '__main__':
     app.run(debug=False, port=5000)

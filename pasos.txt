@@ -7,3 +7,6 @@ grahpviz tiene que estar instalado y el dot debe ser parte de las variables de e
 
 
 instalar heroku cli
+agregar un procfile
+
+web gunicorn nombreArchivo:app --preload
