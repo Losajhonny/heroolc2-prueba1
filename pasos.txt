@@ -9,3 +9,5 @@ el dot debe ser parte de las variables de entorno <-- pruebas de forma local
 instalar heroku cli
 agregar un procfile
     web gunicorn nombreArchivo:app --preload
+
+
