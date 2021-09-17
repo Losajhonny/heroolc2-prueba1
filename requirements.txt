@@ -1,0 +1,4 @@
+Flask==1.1.2
+Flask-Cors==3.0.9
+graphviz==0.17
+ply==3.11

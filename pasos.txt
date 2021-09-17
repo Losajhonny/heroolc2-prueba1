@@ -1,0 +1,6 @@
+Entorno virtual
+
+python -m venv env
+pip install -r requirements.txt
+
+grahpviz tiene que estar instalado y el dot debe ser parte de las variables de entorno
