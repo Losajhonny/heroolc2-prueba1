@@ -1,7 +1,6 @@
 from flask import Flask
 
 import graphviz
-import os
 
 app = Flask(__name__)
 
