@@ -16,8 +16,7 @@ def grafo():
     dot.node('L', 'Sir Lancelot the Brave')
     dot.edges(['AB', 'AL'])
     dot.edge('B', 'L', constraint='false')
-    print(dot)
-    return dot.render()
+    return dot.pipe().decode('utf-8')
 
 if __name__ == '__main__':
     app.run(debug=False, port=5000)
